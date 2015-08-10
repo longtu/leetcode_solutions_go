@@ -1,6 +1,9 @@
 ###About
 `leetcode_solutions_go` is a set of my solutions to the programming challenges at [LeetCode](http://leetcode.com), implemented in Go. Originally, I implemented [solutions in C++/C](http://github.com/vinceyuan/leetcode_solutions), and then re-wrote them with Go. Please go to solutions in C++/C for the description of each problem.
 
+###Run
+`go test`
+
 ###License
 MIT License
 Copyright (c) 2015 Vince Yuan (vince.yuan###gmail.com)
