@@ -2,7 +2,10 @@ package main
 
 import ()
 
-func N001TwoSum_twoSum(nums []int, target int) []int {
+type N001TwoSum struct {
+}
+
+func (this *N001TwoSum) twoSum(nums []int, target int) []int {
 	var results []int
 	var hash map[int]int
 	hash = make(map[int]int)

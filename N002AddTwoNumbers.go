@@ -1,6 +1,9 @@
 package main
 
-func N002AddTwoNumbers_addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+type N002AddTwoNumbers struct {
+}
+
+func (this *N002AddTwoNumbers) addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var result *ListNode = nil
 	advance := 0
 

@@ -6,8 +6,9 @@ import (
 )
 
 func TestHello(t *testing.T) {
+	var n001 N001TwoSum
 	nums := []int{2, 7, 11, 15, 12}
-	results := N001TwoSum_twoSum(nums, 9)
+	results := n001.twoSum(nums, 9)
 	fmt.Println("N001TwoSum: ", results)
 	if len(results) != 2 {
 		t.Errorf("Results length should be 2")
