@@ -16,7 +16,7 @@ func (this *N007ReverseInteger) reverse(x int32) int32 {
 		x /= 10
 	}
 
-	if y > 2147483647 { // Handle overflow
+	if y > INT_MAX { // Handle overflow
 		return 0
 	}
 	if isNeg {
