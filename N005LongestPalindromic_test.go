@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestN005LongestPalindromic_longestPalindrome(t *testing.T) {
+func TestN005LongestPalindromic(t *testing.T) {
 	var n005 N005LongestPalindromic
 	fmt.Print("N005LongestPalindromic: ", n005.longestPalindrome("ccc"), " ")
 	fmt.Print(n005.longestPalindrome("abcdabcbadcbagf"), " ")

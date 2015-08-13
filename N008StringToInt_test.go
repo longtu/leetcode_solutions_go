@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestN008StringToInt_myAtoi(t *testing.T) {
+func TestN008StringToInt(t *testing.T) {
 	var n008 N008StringToInt
 	fmt.Print("N008StringToInt: ", n008.myAtoi("1"), " ")
 	fmt.Print(n008.myAtoi("0123"), " ")

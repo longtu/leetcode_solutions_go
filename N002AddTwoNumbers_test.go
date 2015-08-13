@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestN002AddTwoNumbers_addTwoNumbers(t *testing.T) {
+func TestN002AddTwoNumbers(t *testing.T) {
 	l0 := new(ListNode)
 	l1 := new(ListNode)
 	l2 := new(ListNode)

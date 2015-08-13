@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestHello(t *testing.T) {
+func TestN001TwoSum(t *testing.T) {
 	var n001 N001TwoSum
 	nums := []int{2, 7, 11, 15, 12}
 	results := n001.twoSum(nums, 9)

@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestN004MedianOfTwoSorted_findMedianSortedArrays(t *testing.T) {
+func TestN004MedianOfTwoSorted(t *testing.T) {
 	nums1 := []int{1, 4, 6, 9}
 	nums2 := []int{2, 3, 5}
 	nums3 := []int{}
