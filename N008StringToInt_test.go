@@ -7,7 +7,7 @@ import (
 
 func TestN008StringToInt(t *testing.T) {
 	var n008 N008StringToInt
-	fmt.Print("N008StringToInt: ", n008.myAtoi("1"), " ")
+	fmt.Print("N008StringToInt:\t", n008.myAtoi("1"), " ")
 	fmt.Print(n008.myAtoi("0123"), " ")
 	fmt.Print(n008.myAtoi("-1203"), " ")
 	fmt.Print(n008.myAtoi("7e2"), " ")

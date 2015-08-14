@@ -35,7 +35,7 @@ func TestN021MergeTwoSorted(t *testing.T) {
 	n6.next = n7
 	n7.next = n8
 	result := n021.mergeTwoLists(n0, n2)
-	fmt.Print("N021MergeTwoSorted: ")
+	fmt.Print("N021MergeTwoSorted:\t")
 	for result != nil {
 		fmt.Print(result.val, " ")
 		result = result.next

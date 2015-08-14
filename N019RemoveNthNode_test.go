@@ -24,7 +24,7 @@ func TestN019RemoveNthNode(t *testing.T) {
 
 	result := n019.removeNthFromEnd(n1, 2)
 	result = n019.removeNthFromEnd(result, 4)
-	fmt.Print("N019RemoveNthNode: ")
+	fmt.Print("N019RemoveNthNode:\t")
 	for result != nil {
 		fmt.Print(result.val, " ")
 		result = result.next

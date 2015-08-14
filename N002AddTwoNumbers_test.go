@@ -26,7 +26,7 @@ func TestN002AddTwoNumbers(t *testing.T) {
 	l5.val = 5
 	l5.next = l4
 
-	fmt.Print("N002AddTwoNumbers: ")
+	fmt.Print("N002AddTwoNumbers:\t")
 	var n002 N002AddTwoNumbers
 	l6 := n002.addTwoNumbers(l2, l5)
 	for l6 != nil {

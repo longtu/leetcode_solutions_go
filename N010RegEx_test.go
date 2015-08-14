@@ -7,7 +7,7 @@ import (
 
 func TestN010RegEx(t *testing.T) {
 	var n010 N010RegEx
-	fmt.Print("N010RegEx: ")
+	fmt.Print("N010RegEx:\t\t")
 	fmt.Print(n010.isMatch("aa", "a"), " ")
 	fmt.Print(n010.isMatch("aa", "aa"), " ")
 	fmt.Print(n010.isMatch("aaa", "aa"), " ")

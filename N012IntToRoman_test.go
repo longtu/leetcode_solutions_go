@@ -7,6 +7,6 @@ import (
 
 func TestN012IntToRoman(t *testing.T) {
 	var n012 N012IntToRoman
-	fmt.Println("N012IntToRoman:", n012.intToRoman(999), n012.intToRoman(1846))
+	fmt.Println("N012IntToRoman:\t\t", n012.intToRoman(999), n012.intToRoman(1846))
 
 }
