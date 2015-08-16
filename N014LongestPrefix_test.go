@@ -8,5 +8,6 @@ import (
 func TestN014LongestPrefix(t *testing.T) {
 	var n014 N014LongestPrefix
 	strs := []string{"abcdefg", "abcdasdfg", "abcdwgfsfs"}
-	fmt.Println("N014LongestPrefix:\t", n014.longestCommonPrefix(strs))
+	fmt.Print("N014LongestPrefix:\t")
+	fmt.Println(n014.longestCommonPrefix(strs))
 }
