@@ -37,7 +37,7 @@ func (this *N047PermutationsII) permuteUnique(nums []int) [][]int {
 		// Add number only when the remaining count in the map > 0
 		for k := range copymap {
 			if copymap[k] > 0 {
-				copycandi := make([]int, len(candi))
+				copycandi := make([]int, len(candi), len(candi)+1)
 				copy(copycandi, candi)
 				copycandi = append(copycandi, k)
 				myqueue = append(myqueue, copycandi)
