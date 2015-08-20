@@ -4,6 +4,12 @@
 ###Run
 `go test`
 
+###Debug
+We can use `gcc` to debug Go programs. However, `go test -c` generated test executable always has optimization. We can't debug the test executable directly. We have to copy code to main.go and compile code without optimization by `go build -gcflags "-N -l"`. Then run `gcc leetcode_solutions_go`. I found `gcc -tui leetcode_solutions_go` is better. 
+
+###Performance (Go vs C++/C)
+I compaired the performance after I converted 50 questions from C++/C to Go. `time ./main` for C++/C version shows `real	0m0.010s`, and `go test` for Go version shows `ok  	github.com/vinceyuan/leetcode_solutions_go	0.049s` on my MacBook Pro 13-inch 2012. I think one of the reasons the Go version is much slower, is I use slices to replace vector/stack/queue of C++.
+
 ###License
 MIT License
 Copyright (c) 2015 Vince Yuan (vince.yuan###gmail.com)
